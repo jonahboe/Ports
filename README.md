@@ -1,7 +1,7 @@
 ## Ports Library for MSP432
 
 ### What is it?
-This is a port manipulation library for the Texas Instruments MSP432 development board. It gives the user the ability to access the ports of the board using static function calls.
+This is a port manipulation library for the Texas Instruments MSP432 development board. It gives the user the ability to access entire ports, rather than just single pins.
 
 ### How does it work?
 The following is documentation on the constants and methods that can be called. Note that the MSP432 is a 16-bit micro-controller, so while the ports are 16 bits wide in code, the physical ports only cover the 8 least significant bits.
